@@ -33,3 +33,4 @@ $string['responses_added'] = 'New responses were submitted';
 $string['responses_added_desc'] = '{$a->sourceurl} submitted new responses. {$a->added} new responses were added, {$a->skipped} '
     . 'were skipped and {$a->errors} errors occurred';
 $string['taskqueued'] = 'Remote calculation task has been queued and will run shortly.';
+$string['taskrecalculateremoteparameters'] = 'Recalculate item parameters from remote responses';

@@ -27,4 +27,15 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$tasks = [];
+$tasks = [
+    [
+        'classname' => \catquizcentralhub_host\task\recalculate_remote_item_parameters::class,
+        'blocking' => 0,
+        'minute' => '0',
+        'hour' => '3',
+        'day' => '1',
+        'month' => '*',
+        'dayofweek' => '*',
+        'disabled' => 0,
+    ],
+];
