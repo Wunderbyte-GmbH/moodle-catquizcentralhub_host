@@ -17,7 +17,7 @@
 namespace catquizcentralhub_host\task;
 
 use core\task\scheduled_task;
-use local_catquiz\calculator\remote_item_parameter_calculator;
+use catquizcentralhub_host\calculator\remote_item_parameter_calculator;
 use local_catquiz\catquiz;
 
 /**

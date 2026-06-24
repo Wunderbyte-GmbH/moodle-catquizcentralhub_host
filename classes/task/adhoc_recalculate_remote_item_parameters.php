@@ -17,7 +17,7 @@
 namespace catquizcentralhub_host\task;
 
 use core\task\adhoc_task;
-use local_catquiz\calculator\remote_item_parameter_calculator;
+use catquizcentralhub_host\calculator\remote_item_parameter_calculator;
 
 /**
  * Adhoc task to recalculate remote item parameters for specific scales.
